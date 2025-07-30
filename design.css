@@ -1,7 +1,59 @@
-body, html {
-    height: 100%;
+body{
+    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#container{
+    background-color: #5F6368;
+    width:max-content;
+    border-radius: 15px;
+    padding: 25px;
+
+}
+#display{
+   
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    height: 35px;
+    border:none;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 50px;
+
+
+   
+
+   
+}
+#title{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.8em;
+}
+#Numbers{
+    display: grid;
+     grid-template-columns: repeat(10, 1fr);
+     gap:8px;
+     
+
+}
+#Numbers button{
+    padding:1px 0;
+    border-radius: 5px;
+    font size:1em;
+    cursor:pointer;
+    transition: background-color 0.2s ease;
+
+}
+#Numbers button:hover {
+  background-color: #555;
+}
+
+#Numbers button:active {
+  background-color: #666;
+  transform: scale(0.98);
 }
