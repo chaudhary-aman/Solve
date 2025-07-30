@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhyUni</title>
+  <script src="logic.js"></script>
+  <script>
+    window.MathJax={
+        tex:
+        {
+            inlineMath:[['$','$']],
+            displayMath:[['[$$','$$']]
+        }
+    }
+  </script>
+   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+</head>
+<body>
+    
+    <h1>Calculator</h1>
+    <div id="calculator">
+    <input type="text" id="display" readonly><br><br>
+    <div id="Numbers">
+        <button onclick="insert('0')">0</button>
+        <button onclick="insert('1')">1</button>
+        <button onclick="insert('2')">2</button>
+        <button onclick="insert('3')">3</button>
+        <button onclick="insert('4')">4</button>
+        <button onclick="insert('5')">5</button>
+        <button onclick="insert('6')">6</button>
+        <button onclick="insert(7)">7</button>
+        <button onclick="insert('8')">8</button>
+        <button onclick="insert('9')">9</button>
+        <button onclick="insert('$\alpha$')">$\alpha$</button>
+        <button onclick="insert('$\varepsilon$')">$\varepsilon$</button>
+        <button onclick="insert('$\mu$')">$\mu$</button>
+        <button onclick="insert('$\gamma$')">$\gamma$</button>
+        <button onclick="insert('$\beta')">$\beta$</button>
+        <button onclick="insert('$\delta$')">$\delta$</button>
+        <button onclick="insert('$\eta')">$\eta$</button>
+        <button onclick="insert('$\theta')">$\theta$</button>
+        <button onclick="insert('$\lambda')">$\lambda$</button>
+        <button onclick="insert('$\pi')">$\pi$</button>
+        <button onclick="insert('$\rho')">$\rho$</button>
+        <button onclick="insert('$\Sigma')">$\Sigma$</button>
+        <button onclick="insert('$\sigma')">$\sigma$</button>
+        <button onclick="insert('$\phi')">$\phi$</button>
+        <button onclick="insert('$\Psi')">$\Psi$</button>
+        <button onclick="insert('$\omega')">$\omega$</button>
+         <button onclick="insert('$\Omega')">$\Omega$</button>
+
+
+        
+
+
+
+        
+
+    </div>
+    <div id="operand">
+        <button onclick="insert('+')">+</button>
+        <button onclick="insert('-')">-</button>
+        <button onclick="insert('*')">*</button>
+        <button onclick="insert('%')">%</button>
+        <button >6</button>
+        <button>Clear</button>
+       <button>=</button>
+    <button>erase</button>
+    </div>
+
+    </div>
+</body>
+</html>
